@@ -1,0 +1,80 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "project_panel": {
+    "dock": "left"
+  },
+  "agent": {
+    "sidebar_side": "right",
+    "dock": "right",
+    "default_model": {
+      "provider": "openai-subscribed",
+      "model": "gpt-5.5",
+      "enable_thinking": true,
+      "effort": "medium"
+    },
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "vim_mode": false,
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)"
+  },
+  "base_keymap": "VSCode",
+  "agent_servers": {
+    "codex-acp": {
+      "default_config_options": {
+        "mode": "full-access",
+        "reasoning_effort": "xhigh"
+      },
+      "type": "registry"
+    },
+    "claude-acp": {
+      "default_config_options": {
+        "mode": "auto"
+      },
+      "type": "registry"
+    }
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "dark",
+    "light": "Ayu Light",
+    "dark": "Conflict",
+  },
+  "theme_overrides": {
+    "Conflict": {
+      "background": "#00000000",
+      "background.appearance": "transparent",
+      "panel.background": "#24294BB3",
+      "elevated_surface.background": "#24294BB3",
+      "surface.background": "#24294BB3",
+      "tab_bar.background": "#24294BB3",
+      "toolbar.background": "#24294BB3",
+      "title_bar.background": "#24294BB3",
+      "title_bar.inactive_background": "#24294BB3",
+      "status_bar.background": "#24294BB3",
+      "element.background": "#353D70B3",
+      "element.hover": "#353D70B3",
+      "element.active": "#1A1E35B3",
+      "element.selected": "#1B1E36B3",
+      "ghost_element.background": "#24294BB3",
+      "ghost_element.hover": "#353D70B3",
+      "ghost_element.active": "#1A1E35B3",
+      "ghost_element.selected": "#1B1E36B3",
+      "editor.background": "#24294BB3",
+      "editor.gutter.background": "#24294BB3",
+      "editor.subheader.background": "#24294BB3",
+      "terminal.background": "#1A1E35B3",
+    },
+  },
+}
