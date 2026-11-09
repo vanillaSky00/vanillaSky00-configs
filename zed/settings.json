@@ -107,7 +107,7 @@
         "predictive": {"color": "#9198a1ff", "font_style": "italic", "font_weight": null},
         "preproc": {"color": "#ff7b72ff", "font_style": null, "font_weight": null},
         "primary": {"color": "#f0f6fcff", "font_style": null, "font_weight": null},
-        "property": {"color": "#f0f6fcff", "font_style": null, "font_weight": null},
+        "property": {"color": "#7ee787ff", "font_style": null, "font_weight": null},
         "property.json_key": {"color": "#7ee787ff", "font_style": null, "font_weight": null},
         "punctuation": {"color": "#ff7b72ff", "font_style": null, "font_weight": null},
         "punctuation.bracket": {"color": "#f0f6fcff", "font_style": null, "font_weight": null},

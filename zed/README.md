@@ -2,6 +2,7 @@
 
 This configuration uses Zed's built-in **One Dark** theme with solid black
 backgrounds and the GitHub Dark syntax palette. No theme extension is required.
+Property names use GitHub green so YAML keys are visibly highlighted too.
 
 ## Use on another machine
 
